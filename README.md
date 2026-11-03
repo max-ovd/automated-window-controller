@@ -17,7 +17,7 @@ Temperature thresholds with hysteresis determine when the window opens or closes
 | BTS7960 | H-bridge motor driver |
 | 12V linear actuator | Window actuation |
 | 12V power supply | Actuator power |
-| LM7805 | Voltage regulation |
+| LM7809 | Voltage regulation |
 
 ## Firmware Features
 
@@ -35,17 +35,18 @@ Temperature thresholds with hysteresis determine when the window opens or closes
 ## Hardware Design
 
 ![Schematic](images/Schematic.png)
-TODO: Add photos of prototype
+TODO: Add photo/video of prototype & oscilloscope measurements
 <!-- Add schematic and prototype photographs here -->
 
 ## Currently
 
-- Implementing prototype onto perfboard
+- Creating 3D printed window mount
+- Stress-testing multi-day continuous runtime of fully integrated prototype
 
 ## Future Improvements
 
 - Add wireless temperature monitoring
-- Convert into PCB design
+- Convert prototype --> perf board / PCB
 - Switch the LM35 for a sensor capable of measuring humidity & CO<sub>2</sub>
 
 ## Technologies
