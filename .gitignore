@@ -1,0 +1,3 @@
+# ignore the testing folder scripts
+firmware/temp-sensor-test/
+firmware/motor-test/
